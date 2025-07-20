@@ -3,6 +3,8 @@ import About from './composant/About';
 import Navbar from './composant/Navbar';
 import Hero from './composant/Hero';
 import Skills from './composant/Skills';
+import Projet from './composant/Projet';
+import Contact from './composant/Contact';
 
 
 
@@ -14,6 +16,8 @@ function App() {
 
       <About />
       <Skills />
+      <Projet />
+      <Contact />
     </>
   );
 }
